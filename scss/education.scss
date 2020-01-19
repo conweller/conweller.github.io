@@ -1,0 +1,50 @@
+@import 'variables.scss';
+
+#education-page .content {
+  display:flex;
+  flex-flow:column;
+}
+
+#education-page  article {
+  align-self:center;
+  max-width:44rem;
+  width:100%;
+}
+
+#education-page article header {
+  margin: 2rem;
+  margin-bottom: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: solid 1px  rgba(0,0,0,0.1);
+}
+#gpa-etc {
+  border-bottom: solid 1px  rgba(0,0,0,0.1);
+}
+#education-page article p {
+  margin: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  padding-bottom: 0.5rem;
+}
+
+.education-subheading {
+  margin: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  padding-bottom: 0.5rem;
+  font-size:1.1rem;
+}
+
+#education-page article header h2 {
+  margin-bottom:0.25rem;
+  font-size:1.7rem;
+  margin:0;
+  padding:0;
+}
+
+#education-page article header h3 {
+  font-size:1.1rem;
+  font-weight:normal;
+  margin:0;
+  padding:0;
+}

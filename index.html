@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script> 
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <a id="title" class="navlink" onclick="goTo('about', '' )">
+        Connor Onweller
+      </a>
+      <ul>
+        <li>
+          <a class="navlink" onclick="goTo('experience')">
+            Experience
+          </a>
+        </li>
+        <li>
+          <a class="navlink" onclick="goTo('education')">
+            Education
+          </a>
+        </li>
+        <li>
+          <a class="navlink" onclick="goTo('projects')">
+            Projects
+          </a>
+        </li>
+        <li>
+          <a class="navlink" href="assets/Connor-Onweller-Resume-2019.pdf" download>
+            Resume
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <section id="about-page">
+      <div class="spacer" id ="about"></div>
+      <div class='content'>
+        <h1>Connor Onweller</h1>
+        <p>
+          I am a computer science student at the University of Delaware
+          interested in software engineering, graphic design, and computer
+          science education.
+        </p>
+        <form action="assets/Connor-Onweller-Resume-2019.pdf"  download>
+        <button id="resume-button" type="submit" value="Download Resume">
+            Download Resume
+        </button>
+        </form>
+      </div>
+    </section>
+    <section id="experience-page">
+      <div class="spacer" id="experience"></div>
+      <div class="content">
+        <h1>Experience</h1>
+        <div class="items">
+          <article>
+            <header>
+              <h2>University of Delaware</h2>
+              <h3><b>Undergraduate Researcher:</b> January 2019 - Present</h3>
+            </header>
+            <ul>
+              <li>
+                Work on a project using machine learning and AI techniques to
+                produce text summaries of line graphs, to be used with screen readers
+                to enable visually impaired individuals to understand the intended
+                meaning behind the graph
+              </li>
+              <li>
+                Assess and integrate cloud OCR systems to improve the accuracy of
+                graph title and label recognition used for generated summaries
+              </li>
+              <li>
+                Frequent literature reviews of relevant computer vision and natural
+                language processing advancements
+              </li>
+            </ul>
+          </article>
+          <article>
+            <header>
+              <h2>University of Delaware</h2>
+              <h3><b>Teaching Assistant:</b> February 2018 - December 2018</h3>
+            </header>
+            <ul>
+              <li>
+                Helped students understand a variety of programming concepts
+                ranging from function definitions to tree structures and MVC design
+                patterns
+              </li>
+              <li>
+                Managed schedule to make sure all students in need of help were
+                assisted in a timely manner
+              </li>
+              <li>
+                Offered detailed feedback on programming assignments so that
+                students could correct mistakes and improve on future assignments
+              </li>
+            </ul>
+          </article>
+          <article>
+            <header>
+              <h2>Givaudan</h2>
+              <h3><b>IT Intern:</b> June 2018 - August 2018</h3>
+            </header>
+            <ul>
+              <li>
+                Addressed end-user issues involving both software and hardware
+              </li>
+              <li>
+                Helped employees with varying technological backgrounds learn how
+                to use and address issues with various software
+              </li>
+              <li>
+                Shadowed employees working within the fields of IT management,
+                network architecture, and service desk support
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="education-page">
+      <div class="spacer" id="education"></div>
+      <div class="content">
+        <h1>Education</h1>
+        <article>
+          <header>
+            <h2>University of Delaware</h2>
+            <h3>BS in Computer Science, Minor in Psychology</h3>
+            <h3>August 2016 - May 2020</h3>
+          </header>
+          <p id="gpa-etc">
+            <b>Major GPA:</b> 3.854<br>
+            <b>Cumulative GPA:</b> 3.741<br>
+            <b>Dean's List</b> All semesters<br>
+            <b>Concentration</b> Artificial Intelligence<br>
+          </p>
+          <h3 class='education-subheading'>Relevant Coursework</h3>
+          <h3 class='education-subheading'>Extracurricular Activities</h3>
+        </article>
+      </div>
+    </section>
+    <section id="projects-page">
+      <div class="spacer" id="projects"></div>
+      <div class="content">
+        <h1>Projects</h1>
+        <!-- <article> -->
+        <!--   <h2>Findr</h2> -->
+        <!-- </article> -->
+        <!-- <article> -->
+        <!--   <h2>Pantry</h2> -->
+        <!-- </article> -->
+        <!-- <article> -->
+        <!--   <h2>ASORTD</h2> -->
+        <!-- </article> -->
+      </div>
+    </section>
+  </body>
+</html>

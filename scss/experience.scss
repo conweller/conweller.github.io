@@ -1,0 +1,59 @@
+@import 'variables.scss';
+
+#experience-page .content {
+  display:flex;
+  flex-flow: column;
+}
+#experience-page .items {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding:1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  #experience-page .items {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #experience-page .items {
+    grid-template-columns: 1fr;
+  }
+}
+
+#experience-page article {
+  color: $fg;
+  margin: 1rem;
+  margin-top: 0;
+  overflow: hidden;
+  // height:unset;
+}
+
+#experience-page article header {
+  // padding: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0;
+  border-bottom: solid 1px  rgba(0,0,0,0.1);
+}
+
+#experience-page article h2 {
+  margin-bottom:0.25rem;
+}
+
+#experience-page article h3 {
+  font-size:0.8rem;
+  font-weight:normal;
+  margin:0;
+  padding:0;
+}
+
+#experience-page article ul {
+  margin:0.5rem;
+  padding: 0;
+}
+
+#experience-page article li {
+  margin:0.5rem;
+}
+
