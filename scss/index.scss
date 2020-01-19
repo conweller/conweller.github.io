@@ -13,14 +13,25 @@ html,body {
 
 body {
   background-color: $bg;
-  background-image:url('../assets/bg.jpg');
-  background-size:cover;
-  background-repeat:repeat;
-  background-attachment: fixed;
+  // background-image:url('../assets/bg.jpg');
+  // background-size:cover;
+  // background-attachment: initial;
   color: $fg;
   font-size:1rem;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight:400;
+}
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url('../assets/bg.jpg') no-repeat center center;
+  background-size:cover;
 }
 
 section {
