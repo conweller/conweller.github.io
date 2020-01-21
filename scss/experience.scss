@@ -1,6 +1,6 @@
 @import 'variables.scss';
 
-#experience-page .content {
+#experience-page .page {
   display:flex;
   flex-flow: column;
 }
@@ -22,7 +22,7 @@
   }
 }
 
-#experience-page article {
+#experience-page .experience-entry {
   color: $fg;
   margin: 1rem;
   margin-top: 0;
@@ -30,30 +30,31 @@
   // height:unset;
 }
 
-#experience-page article header {
+#experience-page .experience-entry header {
   // padding: 1rem;
   padding-bottom: 0.5rem;
   padding-top: 0;
   border-bottom: solid 1px  rgba(0,0,0,0.1);
 }
 
-#experience-page article h2 {
+#experience-page .experience-entry h2 {
   margin-bottom:0.25rem;
 }
 
-#experience-page article h3 {
+#experience-page .experience-entry h3 {
   font-size:0.8rem;
   font-weight:normal;
   margin:0;
   padding:0;
 }
 
-#experience-page article ul {
+#experience-page .experience-entry ul {
   margin:0.5rem;
   padding: 0;
+  padding-left: 0.25rem;
 }
 
-#experience-page article li {
+#experience-page .experience-entry li {
   margin:0.5rem;
 }
 
