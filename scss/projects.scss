@@ -19,6 +19,8 @@
   flex-flow:column;
   align-items:center;
   justify-content:center;
+  padding-top:1.5rem;
+  padding-bottom:1.5rem;
 }
 
 #projects-page .project-box {
@@ -46,9 +48,15 @@
 }
 
 #projects-page .box-content {
-  margin: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
   padding-bottom: 0.5rem;
   border-bottom: solid 1px  rgba(0,0,0,0.1);
+}
+
+#projects-page .last {
+  border-bottom:none;
 }
 
 #projects-page .box-image {

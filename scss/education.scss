@@ -31,7 +31,6 @@
   margin: 2rem;
   margin-top: 0.5rem;
   margin-bottom: 0;
-  font-size:1.1rem;
 }
 
 #education-page .education-information header h2 {
@@ -41,9 +40,13 @@
   padding:0;
 }
 
-#education-page .education-information header h3 {
+#education-page h3{
   font-size:1.1rem;
+}
+
+#education-page .education-information header h3 {
   font-weight:normal;
   margin:0;
   padding:0;
 }
+
