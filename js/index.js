@@ -1,16 +1,16 @@
 function goTo(id, route=`#${id}`) {
+  let icon_elm = document.getElementById('nav-icon');
+  let list_elm = document.getElementById('nav-list');
+  if ( icon_elm.style.display != 'none' && list_elm.style.display == 'flex' ) {
+    list_elm.style.display = 'none';
+  }
   document.getElementById(id).scrollIntoView({behavior: "smooth"});
   url=document.location.href;
   url=url.split('#')[0]
   window.history.pushState("", "", `${url}${route}`);
-  let icon_elm = document.getElementById('nav-icon');
-  let list_elm = document.getElementById('nav-list');
-  if ( icon_elm.style.display == 'flex' && list_elm.style.display == 'flex' ) {
-    list_elm.style.display = 'none';
-  }
 }
 
-function showNav() {
+function hideShowNav() {
   let list_elm = document.getElementById('nav-list');
   if ( list_elm.style.display == 'flex' ) {
     list_elm.style.display = 'none';
