@@ -16,7 +16,7 @@ nav {
 
 nav #title {
   margin-left: 1.5rem;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
@@ -54,7 +54,7 @@ nav ul {
   list-style-type: none;
   display: flex;
   padding: 0;
-  font-size: 0.85rem;
+  font-size: 0.925rem;
   height: 100%;
 }
 
