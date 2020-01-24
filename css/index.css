@@ -10,12 +10,13 @@ nav {
   color: black;
   z-index: 1;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 0.5rem solid #3651ac;
   font-family: "Source Sans Pro", sans-serif;
 }
 
 nav #title {
   margin-left: 1.5rem;
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: 700;
 }
 
@@ -29,7 +30,7 @@ nav a {
 
 .navlink {
   cursor: pointer;
-  height: 3rem;
+  height: 4rem;
   display: flex;
   align-items: center;
   padding-left: 0.5rem;
@@ -53,7 +54,7 @@ nav ul {
   list-style-type: none;
   display: flex;
   padding: 0;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   height: 100%;
 }
 
@@ -63,7 +64,7 @@ nav li {
 }
 
 #nav-icon {
-  height: 3rem;
+  height: 4rem;
   align-items: center;
   justify-content: center;
   cursor: pointer;
@@ -149,6 +150,12 @@ nav li {
 
 #resume-button:active {
   background-color: rgba(0, 0, 0, 0.065);
+}
+
+#headshot {
+  width: 17rem;
+  margin-top: 2rem;
+  border-radius: 40rem;
 }
 
 #experience-page .page {
@@ -397,7 +404,7 @@ h1 {
 
 .spacer {
   width: 100%;
-  height: 5rem;
+  height: 7rem;
 }
 
 h1, h2, h3 {

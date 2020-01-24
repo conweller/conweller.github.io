@@ -12,13 +12,14 @@ nav {
   color:$fg;
   z-index:1;
   border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-top: 0.5rem solid rgb(54, 81, 172);
   font-family: $heading-font;
 }
 
 
 nav #title{
   margin-left: 1.5rem;
-  font-size:1rem;
+  font-size:1.15rem;
   font-weight:700;
 }
 
@@ -32,7 +33,7 @@ nav a {
 
 .navlink {
   cursor:pointer;
-  height:3rem;
+  height:4rem;
   display:flex;
   align-items:center;
   padding-left:0.5rem;
@@ -55,7 +56,7 @@ nav ul {
   list-style-type: none;
   display:flex;
   padding:0;
-  font-size:0.8rem;
+  font-size:0.85rem;
   height:100%;
 }
 
@@ -65,7 +66,7 @@ nav li {
 }
 
 #nav-icon {
-  height:3rem;
+  height:4rem;
   align-items:center;
   justify-content:center;
   cursor: pointer;

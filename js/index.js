@@ -34,7 +34,8 @@ window.addEventListener('resize', (_) => {
 document.addEventListener('click', (event) => {
   let nav_elm = document.getElementsByTagName('nav')[0];
   let list_elm = document.getElementById('nav-list');
-  if (!nav_elm.contains(event.target)) {
-    list_elm.style.display = 'none'
+  let icon_elm = document.getElementById('nav-icon');
+  if (icon_elm.style.display == 'flex'  && !nav_elm.contains(event.target)) {
+    list_elm.style.display = 'none';
   }
 });
