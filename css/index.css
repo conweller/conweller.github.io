@@ -90,18 +90,6 @@ nav li {
     justify-content: flex-start;
   }
 }
-@media only screen and (min-width: 601px) {
-  #nav-icon {
-    display: none;
-  }
-
-  #nav-list {
-    display: flex;
-    flex-flow: row;
-    align-items: flex-end;
-    justify-content: flex-start;
-  }
-}
 #about-page {
   font-size: 1.2rem;
   display: flex;
