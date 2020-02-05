@@ -345,7 +345,7 @@ nav li {
 
 #projects-page .project-link:active {
   color: unset;
-  background-color: rgba(0, 0, 0, 0.06);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 #projects-page .project-link:hover {
