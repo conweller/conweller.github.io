@@ -7,7 +7,8 @@
 
 #education-page  .education-information {
   align-self:center;
-  max-width:44rem;
+  height:100%;
+  max-width:40rem;
   width:100%;
 }
 
@@ -35,14 +36,10 @@
 
 #education-page .education-information header h2 {
   margin-bottom:0.25rem;
-  font-size:1.7rem;
   margin:0;
   padding:0;
 }
 
-#education-page h3{
-  font-size:1.1rem;
-}
 
 #education-page .education-information header h3 {
   font-weight:normal;

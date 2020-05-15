@@ -10,8 +10,8 @@ nav {
   color: black;
   z-index: 1;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  border-top: 0.5rem solid black;
-  font-family: "Inter", sans-serif;
+  border-top: 0.3rem solid black;
+  font-family: "Iter", sans-serif;
 }
 
 nav #title {
@@ -135,7 +135,7 @@ nav li {
   cursor: pointer;
   margin: 1rem;
   margin-bottom: 2rem;
-  font-family: "Inter", sans-serif;
+  font-family: "Iter", sans-serif;
   padding: 0.5rem;
   font-size: 1rem;
   border: unset;
@@ -166,21 +166,20 @@ nav li {
 }
 
 #experience-page .items {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-flow: column;
   padding: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 
-@media only screen and (max-width: 800px) {
-  #experience-page .items {
-    grid-template-columns: 1fr;
-  }
-}
 #experience-page .experience-entry {
   color: black;
   margin: 1rem;
   margin-top: 0;
   overflow: hidden;
+  width: 100%;
+  max-width: 40rem;
 }
 
 #experience-page .experience-entry header {
@@ -194,7 +193,6 @@ nav li {
 }
 
 #experience-page .experience-entry h3 {
-  font-size: 0.8rem;
   font-weight: normal;
   margin: 0;
   padding: 0;
@@ -217,7 +215,8 @@ nav li {
 
 #education-page .education-information {
   align-self: center;
-  max-width: 44rem;
+  height: 100%;
+  max-width: 40rem;
   width: 100%;
 }
 
@@ -247,13 +246,8 @@ nav li {
 
 #education-page .education-information header h2 {
   margin-bottom: 0.25rem;
-  font-size: 1.7rem;
   margin: 0;
   padding: 0;
-}
-
-#education-page h3 {
-  font-size: 1.1rem;
 }
 
 #education-page .education-information header h3 {
@@ -290,7 +284,7 @@ nav li {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 42rem;
+  max-width: 40rem;
 }
 
 #projects-page h2 a {
@@ -332,7 +326,7 @@ nav li {
 
 #projects-page .project-link {
   cursor: pointer;
-  font-family: "Inter", sans-serif;
+  font-family: "Iter", sans-serif;
   font-size: 1rem;
   font-weight: 500;
   text-decoration: unset;
@@ -401,7 +395,15 @@ section {
 }
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-size: 0.9rem;
 }
 
 .spacer {
@@ -410,7 +412,7 @@ h1 {
 }
 
 h1, h2, h3 {
-  font-family: "Inter", sans-serif;
+  font-family: "Iter", sans-serif;
 }
 
 section h1 {
