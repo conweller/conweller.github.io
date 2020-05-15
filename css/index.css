@@ -11,7 +11,7 @@ nav {
   z-index: 1;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   border-top: 0.5rem solid black;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 nav #title {
@@ -135,7 +135,7 @@ nav li {
   cursor: pointer;
   margin: 1rem;
   margin-bottom: 2rem;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 0.5rem;
   font-size: 1rem;
   border: unset;
@@ -332,7 +332,7 @@ nav li {
 
 #projects-page .project-link {
   cursor: pointer;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1rem;
   font-weight: 500;
   text-decoration: unset;
@@ -374,7 +374,7 @@ body {
   background-attachment: fixed;
   color: black;
   font-size: 1rem;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
 }
 
@@ -410,7 +410,7 @@ h1 {
 }
 
 h1, h2, h3 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 section h1 {

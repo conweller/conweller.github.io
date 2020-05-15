@@ -1,0 +1,68 @@
+#about-page {
+  font-size: 1.2rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-page .page {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#about-page p {
+  margin: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#about-page h1 {
+  margin-top: none;
+  margin-bottom: none;
+  margin: 1rem;
+  padding: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-bottom: solid 0.25rem black;
+}
+
+#about-page div > * {
+  max-width: 42rem;
+}
+
+#resume-button {
+  cursor: pointer;
+  margin: 1rem;
+  margin-bottom: 2rem;
+  font-family: "Inter", sans-serif;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: unset;
+  box-shadow: unset;
+  background-color: black;
+  color: #F9F9F9;
+  border: solid 0.125rem black;
+}
+
+#resume-button:hover {
+  background-color: #F9F9F9;
+  color: black;
+}
+
+#resume-button:active {
+  background-color: rgba(0, 0, 0, 0.065);
+}
+
+#headshot {
+  width: 17rem;
+  margin-top: 2rem;
+  border-radius: 40rem;
+}
+
+/*# sourceMappingURL=about.css.map */
