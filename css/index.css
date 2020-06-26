@@ -227,10 +227,6 @@ nav li {
   border-bottom: solid 1px rgba(0, 0, 0, 0.1);
 }
 
-#gpa-etc {
-  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
-}
-
 #education-page .education-information p {
   margin: 2rem;
   margin-top: 0.5rem;
@@ -240,14 +236,24 @@ nav li {
 
 .education-subheading {
   margin: 2rem;
-  margin-top: 0.5rem;
+  margin-top: 0rem;
+  padding-top: 0.5rem;
   margin-bottom: 0;
+  border-top: solid 1px rgba(0, 0, 0, 0.1);
 }
 
 #education-page .education-information header h2 {
   margin-bottom: 0.25rem;
   margin: 0;
   padding: 0;
+}
+
+#education-page ul {
+  margin-right: 2rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
 }
 
 #education-page .education-information header h3 {
