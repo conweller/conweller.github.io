@@ -169,6 +169,8 @@ nav li {
   display: flex;
   flex-flow: column;
   padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   align-items: center;
   justify-content: center;
 }
