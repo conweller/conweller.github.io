@@ -1,0 +1,204 @@
+@import './light-theme.css';
+
+li {
+  padding-left: 0.5rem;
+}
+
+pre.sourceCode {
+  white-space: pre-wrap;
+  line-height: 175%;
+}
+pre.sourceCode {
+  counter-reset: listing;
+}
+pre.sourceCode a {
+  counter-increment: listing;
+  line-height: 175%;
+}
+pre.sourceCode a::before {
+  content: counter(listing) ". ";
+  display: inline-block;
+  width: 2rem;
+  margin-right: 0.5rem;
+  padding-left: auto;
+  margin-left: auto;
+  text-align: right;
+  line-height: 190%;
+}
+
+html {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding-bottom: 20rem;
+}
+
+
+table, th, td{
+  font-size: 100%;
+  margin: auto;
+  border-collapse: collapse;
+  padding:0.25rem;
+}
+
+table {
+  min-width:20rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.math, math {
+  font-size: 90%;
+  margin-left: 0.05rem;
+  margin-right: 0.05rem;
+}
+
+td {
+  text-align: center;
+}
+
+body {
+  max-width: 42rem;
+  width: 100%;
+  margin: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding:3rem;
+  padding-top:1.75rem;
+  font-family: "Inter", "Open Sans", "Helvetica", "Arial", sans-serif;
+  font-size: 95%;
+  line-height: 200%;
+}
+
+@media only screen and (max-width: 44rem) {
+  body {
+    margin-top: 0;
+    margin-bottom:0;
+    border: none;
+  }
+}
+
+blockquote, dl {
+  margin:0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  padding-left: 0.75rem;
+}
+
+
+pre {
+  padding: 1rem;
+}
+
+code {
+  padding: 0.07rem;
+  font-family: "Iosevka SS05", "DejaVu Sans Mono", "Menlo", "Consolas", "Monaco", monospace;
+  font-weight: 400;
+  font-size: 90%;
+}
+
+pre code {
+  border: none;
+  padding: 0;
+}
+
+
+h1 {
+  padding-top: 2rem;
+  padding-bottom: 0.25rem;
+}
+
+h2, h3, h4, h5, h6 {
+  padding-top: 2rem;
+
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{ 
+  text-decoration: none;
+}
+
+a {
+  border-bottom: none;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5 {
+  margin-top:1.25rem;
+  font-weight: 700;
+  line-height: 115%;
+}
+
+h1, h2 {
+  font-size: 130%;
+}
+
+h3 {
+  font-size: 120%;
+}
+
+h4 {
+  font-size: 115%;
+}
+
+h5 {
+  font-size: 110%;
+  font-style: italic;
+}
+
+h6 {
+  font-size: 100%;
+  font-style: italic;
+}
+
+h1.title {
+  font-size: 200%;
+  font-weight: 700;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  text-align: center;
+  border: none;
+}
+
+dt {
+  font-weight: 700;
+}
+
+dd p {
+  margin-top: 0;
+}
+
+dd {
+  margin: 0;
+  margin-left:1rem;
+}
+
+#footer {
+  padding-top: 1em;
+  font-size: 75%;
+  text-align: center;
+}
+
+figure {
+  display:flex;
+  flex-flow:column;
+  align-items:center;
+  font-size: 85%;
+}
+
+img {
+  padding: 0.5rem;
+}
+
+blockquote img {
+  display:block;
+  margin:auto;
+}
+
+pre > code.sourceCode > span > a:first-child::before {
+  text-decoration: none;
+}

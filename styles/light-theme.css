@@ -1,0 +1,87 @@
+a code {
+  color: #3d7eda;
+}
+
+pre.sourceCode a::before {
+  color: #a8a8a8;
+  border-right: 1px solid #e0e0e0;
+}
+
+.active {
+  color: #3d7eda;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000;
+}
+
+math,
+.math {
+  color: #626262;
+}
+
+table {
+  /* border: 1px solid #e0e0e0; */
+}
+
+td {
+  border: 1px solid #e0e0e0;
+}
+
+th {
+  /* background-color: #f9f9f9; */
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+dl,
+blockquote {
+  border: 1px solid #e9e9e9;
+  background-color: #f9f9f9;
+}
+
+blockquote {
+    border-left: 0.5rem solid #e9e9e9;
+}
+
+pre,
+code {
+  background-color: #f9f9f9;
+  color: #626262;
+}
+
+div.sourceCode {
+  background-color: unset;
+}
+
+pre {
+  border: 1px solid #e9e9e9;
+}
+
+pre code {
+  background-color: unset;
+}
+
+a {
+  color: #3d7eda;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #dfdfdf;
+}
+
+h1 {
+  border-bottom: 1px solid #e9e9e9;
+}
+
+code a {
+  color: #3d7eda;
+}
+
+dt {
+  border-bottom: 1px solid #e9e9e9;
+}
