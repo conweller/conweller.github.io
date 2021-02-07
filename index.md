@@ -19,8 +19,7 @@ practices, text editors, and graphic design.
 
 Here is my updated resume.
 
-[Connor Onweller Resume
-(2021)](assets/Connor-Onweller-Resume-Expanded.pdf)
+[Connor Onweller Resume](resume/Connor-Onweller-Resume.pdf)
 
 # Publications
 
